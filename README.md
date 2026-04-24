@@ -1,3 +1,5 @@
+![Domain-Adaptive ASR For Telephony AI Agents](docs/assets/cover.png)
+
 # BOTNOI ASR Telephony Benchmark
 
 Domain-adaptive ASR benchmark and reference fine-tuning recipes for enterprise contact-center telephony, built on NVIDIA Canary Flash models and the NVIDIA NeMo framework.
