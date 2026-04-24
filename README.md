@@ -15,7 +15,7 @@ This repository accompanies the technical report *"Domain-Adaptive ASR for Telep
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-org>/botnoi-asr-benchmark.git
+git clone https://github.com/OHM-Songpol/Botnoi_ASR_telephony.git
 cd botnoi-asr-benchmark
 pip install -r evaluation/requirements.txt
 
