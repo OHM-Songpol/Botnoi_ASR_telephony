@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the following technical report."
+title: "BOTNOI ASR Telephony Benchmark"
+type: software
+authors:
+  - family-names: Boonpramuk
+    given-names: Chanameth
+    email: chanameth.b@botnoigroup.com
+    affiliation: Botnoi Group
+  - family-names: Voravuthikunchai
+    given-names: Winn
+    email: winnv@botnoigroup.com
+    affiliation: Botnoi Group
+year: 2026
+license: Apache-2.0
+repository-code: "https://github.com/<your-org>/botnoi-asr-benchmark"
+preferred-citation:
+  type: report
+  title: "Domain-Adaptive ASR for Telephony AI Agents: Fine-tuning Canary Flash Models for Enterprise Contact Center Applications"
+  authors:
+    - family-names: Boonpramuk
+      given-names: Chanameth
+    - family-names: Voravuthikunchai
+      given-names: Winn
+  institution:
+    name: Botnoi Group
+  year: 2026
