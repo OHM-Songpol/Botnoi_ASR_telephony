@@ -1,9 +1,14 @@
 ---
 name: Data access request
-about: Request access to the BOTNOI telephony test splits
+about: Request commercial licensing or access beyond the public test splits
 title: "[Data access] <your affiliation>"
 labels: data-access
 ---
+
+> The BOTNOI telephony test splits are publicly available on Hugging Face at
+> [Botnoi/voicebot-telephony-speech](https://huggingface.co/datasets/Botnoi/voicebot-telephony-speech) —
+> no request needed for non-commercial research use. Use this template only for
+> commercial licensing inquiries or requests beyond the public release.
 
 ## Requester
 

@@ -9,7 +9,7 @@ This directory tracks submitted results against the BOTNOI ASR Telephony Benchma
 | Thai — public             | Common Voice 23 (Thai), Fleurs (Thai) | CER            | —         |
 | Telephony                 | BOTNOI telephony test (10%)           | CER            | —         |
 | Domain jargon             | BOTNOI names & addresses test (10%)   | CER            | —         |
-| Latency                   | BOTNOI names & addresses test         | CER            | RTFx      |
+| Latency                   | Common Voice 23 (Thai)                | RTFx           | CER       |
 
 ## Submitting a result
 

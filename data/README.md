@@ -11,7 +11,7 @@ Together, these sources form two evaluation tracks:
 
 | Track                     | Hours | Purpose                                  |
 |---------------------------|-------|------------------------------------------|
-| General telephony         | 74    | Fine-tune and evaluate on open-domain telephony speech |
+| General telephony         | 77    | Fine-tune and evaluate on open-domain telephony speech |
 | Names and addresses       | 104   | Fine-tune and evaluate on business-critical jargon     |
 
 A 90% / 10% train / test split is used for both tracks. Only the 10% test portion is distributed for benchmarking purposes.
@@ -39,16 +39,22 @@ Full details are in Section 3.1 of the technical report. Briefly:
 - Any utterance containing identifiable personal information that is not the volunteer's own (e.g., third-party names, phone numbers, account IDs) was removed or redacted before inclusion.
 - If you believe a clip in the released test set contains information that should be redacted, please email the maintainers directly rather than opening a public issue.
 
-## Requesting access
+## Accessing the data
 
-The test sets are hosted externally. To request access:
+The general telephony track's test split (the benchmark set used for the "Telephony" track above) is publicly available on Hugging Face:
 
-1. Open an issue using the *Data access request* template.
-2. Include your affiliation, contact email, and a short description of the intended use.
-3. Agree to the data-use terms (non-commercial research; no redistribution; no re-identification attempts).
+**[Botnoi/voicebot-telephony-speech](https://huggingface.co/datasets/Botnoi/voicebot-telephony-speech)**
 
-Typical turnaround is one to two weeks.
+Download directly, or load with the `datasets` library:
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("Botnoi/voicebot-telephony-speech")
+```
+
+The names-and-addresses track test split is not included in this release; contact the maintainers for access.
 
 ## License
 
-The dataset is released for non-commercial research use only. Commercial licensing is available on request — contact the maintainers listed in the top-level [`README.md`](../README.md).
+The dataset is released for non-commercial research use. Commercial licensing is available on request — contact the maintainers listed in the top-level [`README.md`](../README.md).

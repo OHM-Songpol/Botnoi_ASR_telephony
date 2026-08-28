@@ -5,13 +5,17 @@ title: Data access
 
 # Data access
 
-The BOTNOI telephony test splits are hosted separately and released under a non-commercial research license. To request access:
+The BOTNOI telephony track's benchmark test set is publicly available on Hugging Face:
 
-1. Open a [Data access request issue](https://github.com/<your-org>/botnoi-asr-benchmark/issues/new?template=data_access_request.md).
-2. Include your affiliation, contact email, and intended use.
-3. Agree to the data-use terms (non-commercial research; no redistribution; no re-identification attempts).
+**[Botnoi/voicebot-telephony-speech](https://huggingface.co/datasets/Botnoi/voicebot-telephony-speech)**
 
-Typical turnaround is one to two weeks.
+```python
+from datasets import load_dataset
+
+ds = load_dataset("Botnoi/voicebot-telephony-speech")
+```
+
+The names-and-addresses track test set is not included in this release — contact the maintainers if you need it.
 
 ## Commercial use
 

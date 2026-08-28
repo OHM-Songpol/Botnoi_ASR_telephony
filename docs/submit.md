@@ -11,7 +11,7 @@ title: Submit
    ```json
    {"audio_filepath": "telephony_test/00001.wav", "text": "..."}
    ```
-3. Open a [Benchmark submission issue](https://github.com/<your-org>/botnoi-asr-benchmark/issues/new?template=benchmark_submission.md) and attach the manifest(s).
+3. Open a [Benchmark submission issue](https://github.com/OHM-Songpol/Botnoi_ASR_telephony/issues/new?template=benchmark_submission.md) and attach the manifest(s).
 4. A maintainer reruns `evaluation/compute_cer.py` against the held-out reference and updates the leaderboard.
 
 ## Rules

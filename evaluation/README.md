@@ -16,7 +16,7 @@ Each submission file is a JSONL manifest with one record per utterance:
 {"audio_filepath": "telephony_test/00001.wav", "text": "สวัสดีค่ะ"}
 ```
 
-Reference manifests follow the same format and are distributed with the test splits after data-access approval.
+Reference manifests follow the same format. The telephony track's reference manifest is distributed with the [public Hugging Face test set](https://huggingface.co/datasets/Botnoi/voicebot-telephony-speech); the names-and-addresses track's reference manifest is available from the maintainers on request.
 
 ```bash
 python compute_cer.py \

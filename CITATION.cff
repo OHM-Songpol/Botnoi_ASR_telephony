@@ -11,9 +11,13 @@ authors:
     given-names: Winn
     email: winnv@botnoigroup.com
     affiliation: Botnoi Group
+  - family-names: Bunyang
+    given-names: Songpol
+    affiliation: Botnoi Group
 year: 2026
 license: Apache-2.0
-repository-code: "https://github.com/<your-org>/botnoi-asr-benchmark"
+repository-code: "https://github.com/OHM-Songpol/Botnoi_ASR_telephony"
+url: "http://arxiv.org/abs/2608.24916"
 preferred-citation:
   type: report
   title: "Domain-Adaptive ASR for Telephony AI Agents: Fine-tuning Canary Flash Models for Enterprise Contact Center Applications"
@@ -22,6 +26,13 @@ preferred-citation:
       given-names: Chanameth
     - family-names: Voravuthikunchai
       given-names: Winn
+    - family-names: Bunyang
+      given-names: Songpol
   institution:
     name: Botnoi Group
   year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2608.24916"
+      description: "arXiv preprint"
+  url: "http://arxiv.org/abs/2608.24916"
