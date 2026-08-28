@@ -26,12 +26,15 @@ git clone https://github.com/OHM-Songpol/Botnoi_ASR_telephony.git
 cd Botnoi_ASR_telephony
 pip install -r evaluation/requirements.txt
 
+# Download the public test set and convert it to a local manifest
+python evaluation/prepare_hf_manifest.py --out-dir botnoi_telephony_test
+
 python evaluation/compute_cer.py \
     --manifest path/to/your_predictions.jsonl \
-    --references data/botnoi_telephony_test.jsonl
+    --references botnoi_telephony_test/manifest.jsonl
 ```
 
-Each line of the predictions file should be JSON with `audio_filepath`, `text` (prediction), and optionally `duration`. Reference manifests and audio can be downloaded from the [Hugging Face dataset](https://huggingface.co/datasets/Botnoi/voicebot-telephony-speech).
+Each line of the predictions file should be JSON with `audio_filepath`, `text` (prediction), and optionally `duration`, matching the `audio_filepath`s written by `prepare_hf_manifest.py`.
 
 ## Headline results (from the paper)
 

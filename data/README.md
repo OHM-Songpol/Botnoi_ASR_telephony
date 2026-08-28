@@ -53,6 +53,8 @@ from datasets import load_dataset
 ds = load_dataset("Botnoi/voicebot-telephony-speech")
 ```
 
+The dataset ships as `audio` (embedded WAV) and `sentence` (transcript) columns — not a `compute_cer.py`-ready manifest. To evaluate against it, convert it first with [`evaluation/prepare_hf_manifest.py`](../evaluation/prepare_hf_manifest.py), which writes the audio out to files and produces a matching `audio_filepath`/`text` JSONL manifest.
+
 The names-and-addresses track test split is not included in this release; contact the maintainers for access.
 
 ## License

@@ -15,6 +15,8 @@ from datasets import load_dataset
 ds = load_dataset("Botnoi/voicebot-telephony-speech")
 ```
 
+To score submissions against it with `evaluation/compute_cer.py`, first convert it to a manifest with `evaluation/prepare_hf_manifest.py` — see the [evaluation README](https://github.com/OHM-Songpol/Botnoi_ASR_telephony/blob/main/evaluation/README.md).
+
 The names-and-addresses track test set is not included in this release — contact the maintainers if you need it.
 
 ## Commercial use

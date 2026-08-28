@@ -1,1 +1,2 @@
 jiwer>=3.0.3
+datasets>=2.19
